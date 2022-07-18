@@ -38,7 +38,7 @@ The package has **four** executables: <br  />
 
 ## Instructions for SP-RRT in Octomap:
 **Package Requirement**: Octomap <br />
-Installation: ```sudo apt-get install ros-noetic-octomap``` <br />
+Installation: ```sudo apt-get install ros-noetic-octomap*``` <br />
 1. Open file `launch/octomap_tracking_server.launch` and change `<arg name="path" default="/XXX/src/path_planning/octomap/freiburg1_360.bt"/>` into your own root. <br />
 2. Open terminal and type <br />
   ```catkin_make  ```<br  />
