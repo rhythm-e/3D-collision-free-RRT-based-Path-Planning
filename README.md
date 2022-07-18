@@ -4,7 +4,7 @@ A 3D collision-free path planning algorithm based on RRT and SP-RRT specialized 
 **Distro:**
   Ros neotic <br  />
 
-The algorithm find an 3D optimized path for obstacle environments. The visualtization is done in **RVIZ** and the majority code is written in **C++**. This package also offer implementation for using **Octomap** as obstacle-environment. <br  />
+The algorithm find an 3D optimized path for obstacle environments. The visualtization is done in **RVIZ** and the majority code is written in **C++**. This package also offers implementation for using **Octomap** as obstacle-environment. <br  />
 
 The package has **four** executables: <br  />
 1. rrt_node <br  />
@@ -37,6 +37,8 @@ The package has **four** executables: <br  />
   ```rosrun path_planner sp_rrt_node``` <br />
 
 ## Instructions for SP-RRT in Octomap:
+**Package Requirement**: Octomap <br />
+Installation: ```sudo apt-get install ros-noetic-octomap``` <br />
 1. Open file `launch/octomap_tracking_server.launch` and change `<arg name="path" default="/XXX/src/path_planning/octomap/freiburg1_360.bt"/>` into your own root. <br />
 2. Open terminal and type <br />
   ```catkin_make  ```<br  />
