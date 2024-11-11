@@ -4,7 +4,7 @@ A 3D collision-free path planning algorithm based on RRT and SP-RRT specialized 
 **Distro:**
   Ros neotic <br  />
 
-The algorithm find an 3D optimized path for obstacle environments. The visualtization is done in **RVIZ** and the majority code is written in **C++**. This package also offers implementation for using **Octomap** as obstacle-environment. <br  />
+The algorithm finds a 3D optimized path for obstacle environments. The visualtization is implemented in **RVIZ** and the majority code is written in **C++**. This package also offers implementation for using **Octomap** as obstacle-environment. <br  />
 
 The package has **four** executables: <br  />
 1. rrt_node <br  />
